@@ -51,7 +51,7 @@ input.onButtonPressed(Button.B, function () {
         basic.showString("%")
         music.playMelody("G A B C5 C - - - ", 158)
     } else {
-        basic.showString("ERROR! PLEASE ROLL THE DICE FIRST!")
+        basic.showString("ERROR!")
     }
 })
 let diceRolled = 0
